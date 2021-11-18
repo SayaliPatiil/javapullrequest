@@ -6,12 +6,12 @@ public static void main(String args[])
 int r1, r2,c1,c2,i,j,k,sum;
 Scanner in = new Scanner(System.in);
  
-System.out.println("Enter the number of rows of matrix1");
+System.out.println("Enter the number of rows of matrix 1");
 r1 = in.nextInt();
  
 System.out.println("Enter the number columns of matrix 1");
 c1 = in.nextInt();
-System.out.println("Enter the number of rows of matrix2");
+System.out.println("Enter the number of rows of matrix 2");
 r2 = in.nextInt();
  
 System.out.println("Enter the number of columns of matrix 2");
@@ -24,7 +24,7 @@ int mat1[][] = new int[r1][c1];
 int mat2[][] = new int[r2][c2]; 
 int res[][] = new int[r1][c2];
  
-System.out.println("Enter the elements of matrix1");
+System.out.println("Enter the elements of matrix 1");
  
 for ( i= 0 ; i < r1 ; i++ )
 { 
@@ -33,7 +33,7 @@ for ( j= 0 ; j < c1 ;j++ )
 mat1[i][j] = in.nextInt();
  
 }
-System.out.println("Enter the elements of matrix2");
+System.out.println("Enter the elements of matrix 2");
  
 for ( i= 0 ; i < r2 ; i++ )
 { 
