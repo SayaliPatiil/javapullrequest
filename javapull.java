@@ -52,7 +52,6 @@ sum=0;
 for ( k= 0 ; k <r2;k++ )
 {
 sum +=mat1[i][k]*mat2[k][j] ;
- 
 }
 res[i][j]=sum;
 }
@@ -67,5 +66,4 @@ System.out.println();
 else
 System.out.print("multipication does not exist ");
 }
- 
 }
